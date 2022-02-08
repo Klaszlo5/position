@@ -1,0 +1,90 @@
+div{
+    border:1px solid gray;
+    padding:10px;
+    margin:10px;
+    width:500px;
+}
+
+nav {
+    font-family: monospace;
+    background-color: orange;
+}
+a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+.galer{
+    max-height: 150px;
+    max-width: 200px;
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    position: relative;
+    border-radius: 20%;
+    padding: 5px;
+}
+.doboz{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+    width: 100px;
+    height: 100px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+.fomenu {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+}
+.dropdown{
+    display: none;
+    position: absolute;
+    color:black
+}
+.menupont{
+    position: relative;
+
+}
+.menupont:hover .dropdown{
+    display: block;
+
+}  
+
+
+.abszolut{
+    width:200px;
+    background-color: cyan;
+    position: relative;
+    right: 200px;
+    left:100px;
+    width: 100%;
+    position: absolute;
+}
+.fixed{
+    background-color: blanchedalmond;
+    position: fixed;
+    bottom:10px;
+
+}
+.li{
+    position: fixed;
+}
+
+/*
+.galeria{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+}
+*/
